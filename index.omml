@@ -1,0 +1,24 @@
+<omml>
+  <head>
+    <title>William's Metaverse</title>
+  </head>
+  <body>
+    <light type="point" position="0, 3, 0" rotation="50, -30, 0" />
+    <cube position="0, -5, 0" size="10, 1, 30" />
+    <cube position="0, 5, 0" size="10, 1, 30">
+      <material color="#00ffff" />
+    </cube>
+    <cube position="5, 0, 0" size="1, 10, 30" />
+    <cube position="-5, 0, 0" size="1, 10, 30">
+      <material color="#ff0000" />
+    </cube>
+    <cube position="0, 0, 15" size="10, 10, 1">
+      <material color="#ff00ff" />
+    </cube>
+    <cube position="0, 0, -15" size="10, 10, 1" />
+    <sphere position="0, 0, 0" />
+    <text>
+      This is a quick test.
+    </text>
+  </body>
+</omml>
