@@ -1,24 +1,25 @@
 <omml>
   <head>
-    <title>William's Metaverse</title>
+    <title>Testing Room</title>
   </head>
   <body>
     <light type="point" position="0, 3, 0" rotation="50, -30, 0" />
     <cube position="0, -5, 0" size="10, 1, 30" />
     <cube position="0, 5, 0" size="10, 1, 30">
-      <material color="#00ffff" />
+      <material color="#11eeee" />
     </cube>
     <cube position="5, 0, 0" size="1, 10, 30" />
     <cube position="-5, 0, 0" size="1, 10, 30">
-      <material color="#ff0000" />
+      <material color="#ee1111" />
     </cube>
     <cube position="0, 0, 15" size="10, 10, 1">
-      <material color="#ff00ff" />
+      <material color="#ee11ee" />
+      <text position="0, 0, -1" size="0.01, 0.01, 0.01">
+        Welcome to the Metaverse!
+      </text>
     </cube>
-    <cube position="0, 0, -15" size="10, 10, 1" />
+    <cube position="0, 0, -15" size="10, 10, 1">
+    </cube>
     <sphere position="0, 0, 0" />
-    <text>
-      This is a quick test.
-    </text>
   </body>
 </omml>
