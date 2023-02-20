@@ -6,14 +6,14 @@
     <light type="point" position="0, 3, 0" rotation="50, -30, 0" />
     <cube position="0, -5, 0" size="10, 1, 30" />
     <cube position="0, 5, 0" size="10, 1, 30">
-      <material color="#11eeee" />
+      <material color="#00FF00" />
     </cube>
     <cube position="5, 0, 0" size="1, 10, 30" />
     <cube position="-5, 0, 0" size="1, 10, 30">
-      <material color="#ee1111" />
+      <material color="#FF0000" />
     </cube>
     <cube position="0, 0, 15" size="10, 10, 1">
-      <material color="#ee11ee" />
+      <material color="#0000FF" />
       <text position="0, 0, -1" size="0.01, 0.01, 0.01">
         Welcome to the Metaverse!
       </text>
